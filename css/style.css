@@ -669,7 +669,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .team .col-sm-3 {
-  padding: 0;
+  padding: 0px;
+  margin: auto;
 }
 
 .team .card > a {
@@ -777,6 +778,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 32px;
   color: #199EB8;
   float: left;
+  
 }
 
 #contact .info p {
@@ -792,6 +794,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
+}
+#col-lg-33{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 100px;
 }
 
 #contact .form #errormessage {
